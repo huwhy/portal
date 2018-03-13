@@ -29,7 +29,11 @@ func (c *FileController) Post() {
 		log.Fatal("savefile err ", err)
 	}
 	host := beego.AppConfig.String("upload.host")
-	c.Data["json"] = model.JsonOk("", host + todayStr + "/" + h.Filename)
+	if host == "/" {
+		c.Data["json"] = model.JsonOk("", "/file?file=" + todayStr + "/" + h.Filename)
+	} else {
+		c.Data["json"] = model.JsonOk("", host + "/file?file=" + todayStr + "/" + h.Filename)
+	}
 	c.ServeJSON()
 }
 
