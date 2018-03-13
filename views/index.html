@@ -1,0 +1,139 @@
+
+  <!--轮播-->
+  <div class="box swiper-container">
+    <div class="swiper-wrapper">
+        {{range .banners}}
+        <div class="swiper-slide">
+          <a href="{{.Url}}">
+              <img src="{{.Img}}"/>
+          </a>
+        </div>
+        {{end}}
+    </div>
+    <!-- 如果需要分页器 -->
+    <div class="swiper-pagination"></div>
+    
+    <!-- 如果需要导航按钮 -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+    
+    <!-- 如果需要滚动条 -->
+    <!-- <div class="swiper-scrollbar"></div> -->
+  </div>
+
+  <div class="box main">
+    <div class="main-content">
+      {{template "/common/service-list.html" .}}
+      <div class="card cmp-summary align-left">
+        <div class="title">
+          <h3>
+            <a href="/about.html"><div class="icon-more">more>></div></a>
+            公司简介
+          </h3>
+          <div class="clr"></div>
+        </div>
+        <div class="content">
+          {{str2html .companySummary}}
+        </div>
+        <div class="title">
+          <h3>
+            <a href="/knows.html"><div class="icon-more">more>></div></a>
+            专业知识
+          </h3>
+          <div class="clr"></div>
+        </div>
+        <div class="content news">
+          <ul>
+            {{range .knows}}
+            <li><span> {{dateformat .Created "2006-01-02 15:04"}}</span><a href="/article/{{.Id}}.html">{{.Title}}</a></li>
+            {{end}}
+
+          </ul>
+        </div>
+      </div>
+      <div class="card examples align-left">
+        <div class="title">
+          <h3>
+            <a href="/examples.html"><div class="icon-more">more>></div></a>
+            工程案例
+          </h3>
+          <div class="clr"></div>
+        </div>
+        <div class="marquee-wrap">
+          {{range .examples}}
+          <div>
+            <img src="{{.MainImg}}">
+            <div class="title">{{.Title}}</div>
+          </div>
+          {{end}}
+        </div>
+      </div>
+      <div class="clr"></div>
+      <div class="card services align-left">
+        <div class="title">
+          <h3>
+            <a href="/services.html"><div class="icon-more">more>></div></a>
+            服务项目
+          </h3>
+          <div class="clr"></div>
+        </div>
+        <div class="services-wrap">
+          <div class="slide11">
+            <div class="tempWrap">
+              <ul>
+                {{range .services}}
+                <li>
+                  <div class="pic">
+                    <a href="/article/{{.Id}}.html" target="_blank">
+                      <img src="{{.MainImg}}">
+                    </a>
+                  </div>
+                  <div class="title"><a href="/article/{{.Id}}.html" target="_blank">{{.Title}}</a></div>
+                </li>
+                {{end}}
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="/static/js/jquery-1.10.1.min.js"></script>
+  <script type="text/javascript" src="/static/js/swiper-4.1.6.min.js"></script>
+  <script type="text/javascript" src="/static/js/jquery.liMarquee.js"></script>
+  <script>        
+    var mySwiper = new Swiper ('.swiper-container', {
+      direction: 'horizontal',//水平 horizontal   垂直  vertical
+      loop: true,
+      autoplay: {
+        delay: 2000,
+        stopOnLastSlide: false,
+        disableOnInteraction: true,
+      },
+      // 如果需要分页器
+      pagination: {
+        el: '.swiper-pagination',
+      },
+      
+      // 如果需要前进后退按钮
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      
+      // 如果需要滚动条
+      // scrollbar: {
+      //   el: '.swiper-scrollbar',
+      // },
+    })        
+    $(function(){
+      $('.marquee-wrap').liMarquee({
+        direction: 'up',
+        circular: true
+      });
+      $('.tempWrap').liMarquee({
+        circular: true
+      });
+    });
+  </script>

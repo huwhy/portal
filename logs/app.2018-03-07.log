@@ -1,0 +1,255 @@
+2018/03/05 20:49:27 [I] [asm_amd64.s:2197] http server Running on http://localhost:8888
+2018/03/05 20:49:29 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      1.979ms|   match|[44m GET     [0m /     r:/
+2018/03/05 20:51:42 [I] [asm_amd64.s:2197] http server Running on http://localhost:8888
+2018/03/05 20:51:44 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      3.528ms|   match|[44m GET     [0m /     r:/
+2018/03/05 20:52:21 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      1.181ms|   match|[44m GET     [0m /     r:/
+2018/03/05 20:53:52 [I] [asm_amd64.s:2197] http server Running on http://localhost:8888
+2018/03/05 20:53:57 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|     19.192ms|   match|[44m GET     [0m /     r:/
+2018/03/05 20:53:57 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      7.406ms|   match|[44m GET     [0m /static/css/index.css
+2018/03/05 20:53:57 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      1.355ms|   match|[44m GET     [0m /static/css/liMarquee.css
+2018/03/05 20:53:57 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      1.444ms|   match|[44m GET     [0m /static/css/swiper-4.1.6.min.css
+2018/03/05 20:53:57 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      1.577ms|   match|[44m GET     [0m /static/js/swiper-4.1.6.min.js
+2018/03/05 20:53:57 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      3.577ms|   match|[44m GET     [0m /static/js/jquery-1.10.1.min.js
+2018/03/05 20:53:57 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      3.168ms|   match|[44m GET     [0m /static/js/jquery.liMarquee.js
+2018/03/05 20:53:58 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|        452µs|   match|[44m GET     [0m /static/css/index.css.map
+2018/03/05 20:53:58 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|     49.423ms| nomatch|[44m GET     [0m /static/js/swiper.min.js.map
+2018/03/05 21:09:52 [I] [asm_amd64.s:2197] http server Running on http://localhost:8888
+2018/03/05 21:09:55 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|     29.408ms|   match|[44m GET     [0m /     r:/
+2018/03/05 21:10:15 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|      2.613ms| nomatch|[44m GET     [0m /static/js/swiper.min.js.map
+2018/03/05 21:10:19 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      5.731ms|   match|[44m GET     [0m /     r:/
+2018/03/05 21:10:19 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|        728µs| nomatch|[44m GET     [0m /static/js/swiper.min.js.map
+2018/03/05 21:10:41 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      7.153ms|   match|[44m GET     [0m /     r:/
+2018/03/05 21:10:41 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|        310µs| nomatch|[44m GET     [0m /static/js/swiper.min.js.map
+2018/03/06 09:23:13 [I] [asm_amd64.s:2197] http server Running on http://localhost:8888
+2018/03/06 09:23:21 [D] [controller.go:228] template Execute err: template: ../common/seo.html:3:37: executing "../common/seo.html" at <.seo.words>: can't evaluate field words in type interface {}
+2018/03/06 09:23:21 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|     11.537ms|   match|[44m GET     [0m /     r:/
+2018/03/06 09:23:26 [D] [controller.go:228] template Execute err: template: ../common/seo.html:3:37: executing "../common/seo.html" at <.seo.words>: can't evaluate field words in type interface {}
+2018/03/06 09:23:26 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      1.635ms|   match|[44m GET     [0m /     r:/
+2018/03/06 09:23:27 [D] [controller.go:228] template Execute err: template: ../common/seo.html:3:37: executing "../common/seo.html" at <.seo.words>: can't evaluate field words in type interface {}
+2018/03/06 09:23:27 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      4.251ms|   match|[44m GET     [0m /     r:/
+2018/03/06 09:23:36 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      1.649ms|   match|[44m GET     [0m /     r:/
+2018/03/06 09:23:36 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|       1.24ms|   match|[44m GET     [0m /static/css/index.css
+2018/03/06 09:23:36 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|        573µs|   match|[44m GET     [0m /static/css/swiper-4.1.6.min.css
+2018/03/06 09:23:36 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|       1.65ms|   match|[44m GET     [0m /static/js/jquery-1.10.1.min.js
+2018/03/06 09:23:36 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|      1.641ms|   match|[44m GET     [0m /static/js/swiper-4.1.6.min.js
+2018/03/06 09:33:37 [I] [asm_amd64.s:2197] http server Running on http://localhost:8888
+2018/03/06 09:33:41 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      5.768ms|   match|[44m GET     [0m /     r:/
+2018/03/06 09:33:42 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      2.294ms|   match|[44m GET     [0m /     r:/
+2018/03/06 09:33:43 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      2.066ms|   match|[44m GET     [0m /     r:/
+2018/03/06 09:33:43 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      2.536ms|   match|[44m GET     [0m /     r:/
+2018/03/06 09:33:43 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      1.385ms|   match|[44m GET     [0m /     r:/
+2018/03/06 09:33:44 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      1.678ms|   match|[44m GET     [0m /     r:/
+2018/03/06 09:33:44 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|       5.14ms|   match|[44m GET     [0m /     r:/
+2018/03/06 09:33:44 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      3.168ms|   match|[44m GET     [0m /     r:/
+2018/03/06 09:33:44 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      3.224ms|   match|[44m GET     [0m /     r:/
+2018/03/06 09:33:45 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      1.257ms|   match|[44m GET     [0m /     r:/
+2018/03/06 09:33:45 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      1.788ms|   match|[44m GET     [0m /     r:/
+2018/03/06 09:43:28 [I] [asm_amd64.s:2197] http server Running on http://localhost:8888
+2018/03/06 09:43:32 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      3.221ms|   match|[44m GET     [0m /     r:/
+2018/03/06 09:44:19 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|     10.354ms|   match|[44m GET     [0m /     r:/
+2018/03/06 09:45:37 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      6.154ms|   match|[44m GET     [0m /     r:/
+2018/03/06 09:45:38 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|        844µs| nomatch|[44m GET     [0m /.Url
+2018/03/06 09:46:44 [I] [asm_amd64.s:2197] http server Running on http://localhost:8888
+2018/03/06 09:46:59 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      3.951ms|   match|[44m GET     [0m /     r:/
+2018/03/06 09:46:59 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      3.305ms|   match|[44m GET     [0m /     r:/
+2018/03/06 09:46:59 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      2.428ms|   match|[44m GET     [0m /     r:/
+2018/03/06 09:47:00 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      2.237ms|   match|[44m GET     [0m /     r:/
+2018/03/06 09:47:07 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      1.793ms|   match|[44m GET     [0m /     r:/
+2018/03/06 09:47:09 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      2.786ms|   match|[44m GET     [0m /     r:/
+2018/03/06 09:47:10 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      2.379ms|   match|[44m GET     [0m /     r:/
+2018/03/06 09:47:15 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|      6.878ms|   match|[44m GET     [0m /static/css/index.css.map
+2018/03/06 09:47:32 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      3.145ms|   match|[44m GET     [0m /     r:/
+2018/03/06 09:47:32 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      1.549ms|   match|[44m GET     [0m /static/css/index.css
+2018/03/06 09:47:32 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|        855µs| nomatch|[44m GET     [0m /static/js/swiper.min.js.map
+2018/03/06 10:00:58 [I] [asm_amd64.s:2197] http server Running on http://localhost:8888
+2018/03/06 10:01:06 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|     14.914ms|   match|[44m GET     [0m /     r:/
+2018/03/06 10:01:06 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|      2.566ms|   match|[44m GET     [0m /static/css/index.css
+2018/03/06 10:04:19 [I] [asm_amd64.s:2197] http server Running on http://localhost:8888
+2018/03/06 10:04:28 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      4.894ms|   match|[44m GET     [0m /     r:/
+2018/03/06 10:04:28 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|        705µs|   match|[44m GET     [0m /static/css/index.css
+2018/03/06 10:04:29 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      3.405ms|   match|[44m GET     [0m /     r:/
+2018/03/06 10:05:51 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      14.97ms|   match|[44m GET     [0m /     r:/
+2018/03/06 10:05:51 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      5.053ms|   match|[44m GET     [0m /     r:/
+2018/03/06 10:05:52 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      3.513ms|   match|[44m GET     [0m /     r:/
+2018/03/06 10:16:25 [I] [asm_amd64.s:2197] http server Running on http://localhost:8888
+2018/03/06 10:16:39 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|     17.025ms|   match|[44m GET     [0m /     r:/
+2018/03/06 10:16:39 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|      1.044ms|   match|[44m GET     [0m /static/css/index.css
+2018/03/06 10:17:34 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|     11.897ms|   match|[44m GET     [0m /     r:/
+2018/03/06 10:20:30 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      8.146ms|   match|[44m GET     [0m /     r:/
+2018/03/06 10:20:30 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|         80µs|   match|[44m GET     [0m /static/css/index.css
+2018/03/06 10:20:38 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      7.602ms|   match|[44m GET     [0m /     r:/
+2018/03/06 10:21:46 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      6.237ms|   match|[44m GET     [0m /     r:/
+2018/03/06 10:22:12 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      9.093ms|   match|[44m GET     [0m /     r:/
+2018/03/06 10:22:14 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      5.462ms|   match|[44m GET     [0m /     r:/
+2018/03/06 10:23:18 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      8.415ms|   match|[44m GET     [0m /     r:/
+2018/03/06 10:26:32 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|        6.8ms|   match|[44m GET     [0m /     r:/
+2018/03/06 10:26:32 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|         82µs|   match|[44m GET     [0m /static/css/index.css
+2018/03/07 10:31:04 [I] [asm_amd64.s:2197] http server Running on http://localhost:8888
+2018/03/07 10:31:17 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|     61.167ms|   match|[44m GET     [0m /     r:/
+2018/03/07 10:31:17 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|        775µs|   match|[44m GET     [0m /static/css/index.css
+2018/03/07 10:31:17 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|        988µs|   match|[44m GET     [0m /static/css/swiper-4.1.6.min.css
+2018/03/07 10:31:17 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|        969µs|   match|[44m GET     [0m /static/js/jquery-1.10.1.min.js
+2018/03/07 10:31:17 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|      2.676ms|   match|[44m GET     [0m /static/js/swiper-4.1.6.min.js
+2018/03/07 11:25:22 [I] [asm_amd64.s:2197] http server Running on http://localhost:8888
+2018/03/07 11:25:27 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|     22.906ms|   match|[44m GET     [0m /     r:/
+2018/03/07 11:25:28 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      8.506ms|   match|[44m GET     [0m /     r:/
+2018/03/07 11:25:28 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      6.827ms|   match|[44m GET     [0m /     r:/
+2018/03/07 11:25:44 [I] [asm_amd64.s:2197] http server Running on http://localhost:8888
+2018/03/07 11:25:47 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|     16.323ms|   match|[44m GET     [0m /     r:/
+2018/03/07 11:28:22 [I] [asm_amd64.s:2197] http server Running on http://localhost:8888
+2018/03/07 11:29:13 [I] [asm_amd64.s:2197] http server Running on http://localhost:8888
+2018/03/07 11:29:16 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|     12.597ms|   match|[44m GET     [0m /     r:/
+2018/03/07 11:29:17 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|     12.967ms|   match|[44m GET     [0m /     r:/
+2018/03/07 13:29:49 [I] [asm_amd64.s:2197] http server Running on http://localhost:8888
+2018/03/07 13:30:00 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|     20.197ms|   match|[44m GET     [0m /     r:/
+2018/03/07 13:30:00 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|        664µs|   match|[44m GET     [0m /static/css/index.css
+2018/03/07 13:30:06 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|        762µs| nomatch|[44m GET     [0m /about.htl
+2018/03/07 13:30:09 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      6.878ms|   match|[44m GET     [0m /about.html   r:/about.html
+2018/03/07 13:31:12 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      5.081ms|   match|[44m GET     [0m /about.html   r:/about.html
+2018/03/07 13:32:31 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      4.477ms|   match|[44m GET     [0m /about.html   r:/about.html
+2018/03/07 13:32:32 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      4.384ms|   match|[44m GET     [0m /about.html   r:/about.html
+2018/03/07 13:32:34 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      6.858ms|   match|[44m GET     [0m /     r:/
+2018/03/07 13:32:38 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      4.099ms|   match|[44m GET     [0m /about.html   r:/about.html
+2018/03/07 13:32:43 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|        247µs| nomatch|[44m GET     [0m /contact.html
+2018/03/07 13:37:24 [I] [asm_amd64.s:2197] http server Running on http://localhost:8888
+2018/03/07 13:37:32 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      6.031ms|   match|[44m GET     [0m /contact.html   r:/contact.html
+2018/03/07 13:42:37 [I] [asm_amd64.s:2197] http server Running on http://localhost:8888
+2018/03/07 13:42:41 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      9.269ms|   match|[44m GET     [0m /contact.html   r:/contact.html
+2018/03/07 13:42:42 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      2.829ms|   match|[44m GET     [0m /services.html   r:/services.html
+2018/03/07 13:42:42 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|        277µs| nomatch|[44m GET     [0m /upload/201612/07/201612071118143755.jpg
+2018/03/07 13:42:42 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|        283µs| nomatch|[44m GET     [0m /upload/201607/14/201607141656042039.jpg
+2018/03/07 13:42:42 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|        264µs| nomatch|[44m GET     [0m /upload/201711/12/201711122228104852.jpg
+2018/03/07 13:42:42 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|        223µs| nomatch|[44m GET     [0m /upload/201711/12/201711122227031415.jpg
+2018/03/07 13:42:42 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|        203µs| nomatch|[44m GET     [0m /upload/201711/12/201711122226191571.JPG
+2018/03/07 13:42:42 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|        201µs| nomatch|[44m GET     [0m /upload/201711/12/201711122225035321.jpg
+2018/03/07 13:42:42 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|        203µs| nomatch|[44m GET     [0m /upload/201711/12/201711122223384383.jpg
+2018/03/07 13:42:42 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|        174µs| nomatch|[44m GET     [0m /upload/201711/12/201711122222587508.jpg
+2018/03/07 13:42:42 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|        185µs| nomatch|[44m GET     [0m /upload/201711/12/201711122221505165.jpg
+2018/03/07 13:42:42 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|        223µs| nomatch|[44m GET     [0m /upload/201711/12/201711122221094852.jpg
+2018/03/07 13:42:42 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|        223µs| nomatch|[44m GET     [0m /upload/201711/12/201711122220099852.jpg
+2018/03/07 13:42:42 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|        241µs| nomatch|[44m GET     [0m /upload/201711/12/201711121758546571.jpg
+2018/03/07 13:43:07 [I] [asm_amd64.s:2197] http server Running on http://localhost:8888
+2018/03/07 13:43:09 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|     11.713ms|   match|[44m GET     [0m /services.html   r:/services.html
+2018/03/07 13:43:09 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|        210µs| nomatch|[44m GET     [0m /upload/201612/07/201612071118143755.jpg
+2018/03/07 13:43:09 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|        299µs| nomatch|[44m GET     [0m /upload/201607/14/201607141656042039.jpg
+2018/03/07 13:43:09 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|        193µs| nomatch|[44m GET     [0m /upload/201711/12/201711122225035321.jpg
+2018/03/07 13:43:09 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|        162µs| nomatch|[44m GET     [0m /upload/201711/12/201711122226191571.JPG
+2018/03/07 13:43:09 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|        168µs| nomatch|[44m GET     [0m /upload/201711/12/201711122227031415.jpg
+2018/03/07 13:43:09 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|        153µs| nomatch|[44m GET     [0m /upload/201711/12/201711122228104852.jpg
+2018/03/07 13:43:09 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|        214µs| nomatch|[44m GET     [0m /upload/201711/12/201711122223384383.jpg
+2018/03/07 13:43:09 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|        335µs| nomatch|[44m GET     [0m /upload/201711/12/201711122222587508.jpg
+2018/03/07 13:43:09 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|        178µs| nomatch|[44m GET     [0m /upload/201711/12/201711121758546571.jpg
+2018/03/07 13:43:09 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|        148µs| nomatch|[44m GET     [0m /upload/201711/12/201711122220099852.jpg
+2018/03/07 13:43:09 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|        142µs| nomatch|[44m GET     [0m /upload/201711/12/201711122221094852.jpg
+2018/03/07 13:43:09 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|        147µs| nomatch|[44m GET     [0m /upload/201711/12/201711122221505165.jpg
+2018/03/07 13:43:10 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      2.598ms|   match|[44m GET     [0m /services.html   r:/services.html
+2018/03/07 13:43:10 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|        211µs| nomatch|[44m GET     [0m /upload/201612/07/201612071118143755.jpg
+2018/03/07 13:43:10 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|        161µs| nomatch|[44m GET     [0m /upload/201711/12/201711122228104852.jpg
+2018/03/07 13:43:10 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|        209µs| nomatch|[44m GET     [0m /upload/201607/14/201607141656042039.jpg
+2018/03/07 13:43:10 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|        186µs| nomatch|[44m GET     [0m /upload/201711/12/201711122225035321.jpg
+2018/03/07 13:43:10 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|        119µs| nomatch|[44m GET     [0m /upload/201711/12/201711122226191571.JPG
+2018/03/07 13:43:10 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|        172µs| nomatch|[44m GET     [0m /upload/201711/12/201711122227031415.jpg
+2018/03/07 13:43:10 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|        211µs| nomatch|[44m GET     [0m /upload/201711/12/201711122223384383.jpg
+2018/03/07 13:43:10 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|        144µs| nomatch|[44m GET     [0m /upload/201711/12/201711122221505165.jpg
+2018/03/07 13:43:10 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|        226µs| nomatch|[44m GET     [0m /upload/201711/12/201711122222587508.jpg
+2018/03/07 13:43:10 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|        129µs| nomatch|[44m GET     [0m /upload/201711/12/201711122220099852.jpg
+2018/03/07 13:43:10 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|        356µs| nomatch|[44m GET     [0m /upload/201711/12/201711121758546571.jpg
+2018/03/07 13:43:10 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|        232µs| nomatch|[44m GET     [0m /upload/201711/12/201711122221094852.jpg
+2018/03/07 13:53:32 [I] [asm_amd64.s:2197] http server Running on http://localhost:8888
+2018/03/07 13:53:35 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      5.139ms|   match|[44m GET     [0m /services.html   r:/services.html
+2018/03/07 13:53:37 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      2.527ms|   match|[44m GET     [0m /services.html   r:/services.html
+2018/03/07 13:54:49 [I] [asm_amd64.s:2197] http server Running on http://localhost:8888
+2018/03/07 13:54:52 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      5.295ms|   match|[44m GET     [0m /examples.html   r:/examples.html
+2018/03/07 13:55:33 [I] [asm_amd64.s:2197] http server Running on http://localhost:8888
+2018/03/07 13:55:35 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      9.158ms|   match|[44m GET     [0m /examples.html   r:/examples.html
+2018/03/07 13:59:49 [I] [asm_amd64.s:2197] http server Running on http://localhost:8888
+2018/03/07 13:59:52 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      5.058ms|   match|[44m GET     [0m /examples.html   r:/examples.html
+2018/03/07 13:59:55 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      3.372ms|   match|[44m GET     [0m /article/1.html   r:/article/:id([0-9]+).html
+2018/03/07 14:04:00 [I] [asm_amd64.s:2197] http server Running on http://localhost:8888
+2018/03/07 14:04:03 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      5.128ms|   match|[44m GET     [0m /article/1.html   r:/article/:id([0-9]+).html
+2018/03/07 14:04:16 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      2.715ms|   match|[44m GET     [0m /article/1.html   r:/article/:id([0-9]+).html
+2018/03/07 14:04:22 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      2.548ms|   match|[44m GET     [0m /article/2.html   r:/article/:id([0-9]+).html
+2018/03/07 14:06:32 [I] [asm_amd64.s:2197] http server Running on http://localhost:8888
+2018/03/07 14:06:34 [I] [asm_amd64.s:2197] http server Running on http://localhost:8888
+2018/03/07 14:06:34 [C] [asm_amd64.s:2197] ListenAndServe:  listen tcp 127.0.0.1:8888: bind: address already in use
+2018/03/07 14:06:42 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      6.258ms|   match|[44m GET     [0m /     r:/
+2018/03/07 14:06:43 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      3.889ms|   match|[44m GET     [0m /about.html   r:/about.html
+2018/03/07 14:06:44 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      4.979ms|   match|[44m GET     [0m /services.html   r:/services.html
+2018/03/07 14:06:45 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      6.452ms|   match|[44m GET     [0m /examples.html   r:/examples.html
+2018/03/07 14:06:46 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      4.012ms|   match|[44m GET     [0m /contact.html   r:/contact.html
+2018/03/07 14:06:48 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      6.344ms|   match|[44m GET     [0m /examples.html   r:/examples.html
+2018/03/07 14:06:49 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      2.945ms|   match|[44m GET     [0m /services.html   r:/services.html
+2018/03/07 14:06:49 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      4.132ms|   match|[44m GET     [0m /about.html   r:/about.html
+2018/03/07 14:06:50 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      7.434ms|   match|[44m GET     [0m /     r:/
+2018/03/07 14:06:51 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      8.558ms|   match|[44m GET     [0m /article/2.html   r:/article/:id([0-9]+).html
+2018/03/07 14:06:56 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      3.148ms|   match|[44m GET     [0m /article/3.html   r:/article/:id([0-9]+).html
+2018/03/07 14:06:57 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      5.644ms|   match|[44m GET     [0m /services.html   r:/services.html
+2018/03/07 14:06:58 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      3.744ms|   match|[44m GET     [0m /article/2.html   r:/article/:id([0-9]+).html
+2018/03/07 14:07:05 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      4.271ms|   match|[44m GET     [0m /contact.html   r:/contact.html
+2018/03/07 14:07:06 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      4.032ms|   match|[44m GET     [0m /examples.html   r:/examples.html
+2018/03/07 14:07:07 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      3.584ms|   match|[44m GET     [0m /services.html   r:/services.html
+2018/03/07 14:07:07 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      4.035ms|   match|[44m GET     [0m /about.html   r:/about.html
+2018/03/07 14:07:08 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      5.485ms|   match|[44m GET     [0m /     r:/
+2018/03/07 15:01:19 [I] [asm_amd64.s:2197] http server Running on http://localhost:8888
+2018/03/07 15:01:19 [C] [asm_amd64.s:2197] ListenAndServe:  listen tcp 127.0.0.1:8888: bind: address already in use
+2018/03/07 15:26:25 [I] [asm_amd64.s:2197] http server Running on http://localhost:8888
+2018/03/07 15:37:45 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      8.602ms|   match|[44m GET     [0m /api/article   r:/api/article
+2018/03/07 15:52:14 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      3.345ms|   match|[44m GET     [0m /api/article   r:/api/article
+2018/03/07 15:52:17 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      1.168ms|   match|[44m GET     [0m /api/article   r:/api/article
+2018/03/07 15:52:22 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      1.162ms|   match|[44m GET     [0m /api/article   r:/api/article
+2018/03/07 16:10:22 [I] [asm_amd64.s:2197] http server Running on http://localhost:8888
+2018/03/07 16:11:39 [I] [asm_amd64.s:2197] http server Running on http://localhost:8888
+2018/03/07 16:15:50 [C] [asm_amd64.s:514] the request url is  /api/upload
+2018/03/07 16:15:50 [C] [asm_amd64.s:514] Handler crashed with error can't find templatefile in the path:views/filecontroller/post.tpl
+2018/03/07 16:15:50 [C] [asm_amd64.s:514] /usr/local/go/src/runtime/asm_amd64.s:514
+2018/03/07 16:15:50 [C] [asm_amd64.s:514] /usr/local/go/src/runtime/panic.go:489
+2018/03/07 16:15:50 [C] [asm_amd64.s:514] /Users/huwhy/go/src/github.com/astaxie/beego/template.go:73
+2018/03/07 16:15:50 [C] [asm_amd64.s:514] /Users/huwhy/go/src/github.com/astaxie/beego/controller.go:256
+2018/03/07 16:15:50 [C] [asm_amd64.s:514] /Users/huwhy/go/src/github.com/astaxie/beego/controller.go:207
+2018/03/07 16:15:50 [C] [asm_amd64.s:514] /Users/huwhy/go/src/github.com/astaxie/beego/controller.go:187
+2018/03/07 16:15:50 [C] [asm_amd64.s:514] /Users/huwhy/go/src/github.com/astaxie/beego/router.go:828
+2018/03/07 16:15:50 [C] [asm_amd64.s:514] /usr/local/go/src/net/http/server.go:2568
+2018/03/07 16:15:50 [C] [asm_amd64.s:514] /usr/local/go/src/net/http/server.go:1825
+2018/03/07 16:15:50 [C] [asm_amd64.s:514] /usr/local/go/src/runtime/asm_amd64.s:2197
+2018/03/07 16:16:52 [I] [asm_amd64.s:2197] http server Running on http://localhost:8888
+2018/03/07 16:17:10 [C] [asm_amd64.s:514] the request url is  /api/upload
+2018/03/07 16:17:10 [C] [asm_amd64.s:514] Handler crashed with error can't find templatefile in the path:views/filecontroller/post.tpl
+2018/03/07 16:17:10 [C] [asm_amd64.s:514] /usr/local/go/src/runtime/asm_amd64.s:514
+2018/03/07 16:17:10 [C] [asm_amd64.s:514] /usr/local/go/src/runtime/panic.go:489
+2018/03/07 16:17:10 [C] [asm_amd64.s:514] /Users/huwhy/go/src/github.com/astaxie/beego/template.go:73
+2018/03/07 16:17:10 [C] [asm_amd64.s:514] /Users/huwhy/go/src/github.com/astaxie/beego/controller.go:256
+2018/03/07 16:17:10 [C] [asm_amd64.s:514] /Users/huwhy/go/src/github.com/astaxie/beego/controller.go:207
+2018/03/07 16:17:10 [C] [asm_amd64.s:514] /Users/huwhy/go/src/github.com/astaxie/beego/controller.go:187
+2018/03/07 16:17:10 [C] [asm_amd64.s:514] /Users/huwhy/go/src/github.com/astaxie/beego/router.go:828
+2018/03/07 16:17:10 [C] [asm_amd64.s:514] /usr/local/go/src/net/http/server.go:2568
+2018/03/07 16:17:10 [C] [asm_amd64.s:514] /usr/local/go/src/net/http/server.go:1825
+2018/03/07 16:17:10 [C] [asm_amd64.s:514] /usr/local/go/src/runtime/asm_amd64.s:2197
+2018/03/07 16:17:46 [I] [asm_amd64.s:2197] http server Running on http://localhost:8888
+2018/03/07 16:17:58 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|        8.7ms|   match|[46m POST    [0m /api/upload   r:/api/upload
+2018/03/07 16:19:14 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   24.511432s|   match|[46m POST    [0m /api/upload   r:/api/upload
+2018/03/07 16:19:35 [I] [asm_amd64.s:2197] http server Running on http://localhost:8888
+2018/03/07 16:22:18 [I] [asm_amd64.s:2197] http server Running on http://localhost:8888
+2018/03/07 16:22:59 [I] [asm_amd64.s:2197] http server Running on http://localhost:8888
+2018/03/07 16:23:13 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|     4.69601s|   match|[46m POST    [0m /api/upload   r:/api/upload
+2018/03/07 16:31:45 [I] [asm_amd64.s:2197] http server Running on http://localhost:8888
+2018/03/07 16:33:06 [I] [asm_amd64.s:2197] http server Running on http://localhost:8888
+2018/03/07 16:34:18 [I] [asm_amd64.s:2197] http server Running on http://localhost:8888
+2018/03/07 16:34:32 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|    2.174464s|   match|[46m POST    [0m /api/upload   r:/api/upload
+2018/03/07 16:37:10 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      1.632ms|   match|[46m POST    [0m /api/upload   r:/api/upload
+2018/03/07 16:38:07 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      2.233ms|   match|[46m POST    [0m /api/upload   r:/api/upload
+2018/03/07 16:38:31 [I] [asm_amd64.s:2197] http server Running on http://localhost:8888
+2018/03/07 16:38:39 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|       7.79ms|   match|[46m POST    [0m /api/upload   r:/api/upload
+2018/03/07 16:39:26 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|        684µs|   match|[46m POST    [0m /api/upload   r:/api/upload
+2018/03/07 16:45:25 [I] [asm_amd64.s:2197] http server Running on http://localhost:8888
+2018/03/07 16:45:50 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      8.474ms|   match|[46m POST    [0m /api/upload   r:/api/upload
+2018/03/07 16:46:30 [D] [server.go:2568] |      127.0.0.1|[43m 404 [0m|      4.919ms| nomatch|[44m GET     [0m /file/20180307/timg.jpeg
+2018/03/07 16:46:38 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      1.972ms|   match|[44m GET     [0m /file   r:/file
+2018/03/07 16:48:51 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|       1.43ms|   match|[46m POST    [0m /api/upload   r:/api/upload
+2018/03/07 16:48:52 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|        324µs|   match|[44m GET     [0m /file   r:/file
+2018/03/07 16:48:52 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|        183µs|   match|[44m GET     [0m /file   r:/file
+2018/03/07 16:48:55 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|        127µs|   match|[44m GET     [0m /file   r:/file
+2018/03/07 16:58:56 [I] [asm_amd64.s:2197] http server Running on http://localhost:8888
+2018/03/07 16:59:56 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      10.52ms|   match|[46m POST    [0m /api/upload   r:/api/upload
+2018/03/07 16:59:58 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|      1.893ms|   match|[44m GET     [0m /file   r:/file
+2018/03/07 16:59:58 [D] [server.go:2568] |      127.0.0.1|[47m 304 [0m|        226µs|   match|[44m GET     [0m /file   r:/file
+2018/03/07 17:00:16 [D] [server.go:2568] |      127.0.0.1|[42m 200 [0m|   16.222722s|   match|[46m POST    [0m /api/article   r:/api/article

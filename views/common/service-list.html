@@ -1,0 +1,14 @@
+<div class="left-sibar align-left card">
+    <div class="title">
+        <h3>
+            <a href="/services.html"><div class="icon-more">more>></div></a>
+            <span>服务项目</span>
+        </h3>
+        <div class="clr"></div>
+    </div>
+    <ul>
+    {{range .services}}
+        <li><a href="/article/{{.Id}}.html">》{{.Title}}</a></li>
+    {{end}}
+    </ul>
+</div>

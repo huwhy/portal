@@ -1,0 +1,79 @@
+
+<!--轮播-->
+<div class="box swiper-container">
+    <div class="swiper-wrapper">
+    {{range .banners}}
+        <div class="swiper-slide">
+            <a href="{{.Url}}">
+                <img src="{{.Img}}"/>
+            </a>
+        </div>
+    {{end}}
+    </div>
+    <!-- 如果需要分页器 -->
+    <div class="swiper-pagination"></div>
+
+    <!-- 如果需要导航按钮 -->
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+
+    <!-- 如果需要滚动条 -->
+    <!-- <div class="swiper-scrollbar"></div> -->
+</div>
+
+<div class="box main">
+    <div class="main-content">
+        {{template "/common/service-contact-list.html" .}}
+        <div class="card about align-left">
+            <div class="title">
+                <h3>
+                    <a><div class="icon-more">more>></div></a>
+                    公司简介
+                </h3>
+                <div class="clr"></div>
+            </div>
+            <div class="content">
+                {{str2html .companySummary}}
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="/static/js/jquery-1.10.1.min.js"></script>
+<script type="text/javascript" src="/static/js/swiper-4.1.6.min.js"></script>
+<script type="text/javascript" src="/static/js/jquery.liMarquee.js"></script>
+<script>
+    var mySwiper = new Swiper ('.swiper-container', {
+        direction: 'horizontal',//水平 horizontal   垂直  vertical
+        loop: true,
+        autoplay: {
+            delay: 2000,
+            stopOnLastSlide: false,
+            disableOnInteraction: true,
+        },
+        // 如果需要分页器
+        pagination: {
+            el: '.swiper-pagination',
+        },
+
+        // 如果需要前进后退按钮
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+
+        // 如果需要滚动条
+        // scrollbar: {
+        //   el: '.swiper-scrollbar',
+        // },
+    })
+    $(function(){
+        $('.marquee-wrap').liMarquee({
+            direction: 'up',
+            circular: true
+        });
+        $('.tempWrap').liMarquee({
+            circular: true
+        });
+    });
+</script>
